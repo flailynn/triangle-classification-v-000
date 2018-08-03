@@ -10,4 +10,8 @@ class Triangle
   def kind
 
   end
+
+  def TriangleError
+
+  end
 end

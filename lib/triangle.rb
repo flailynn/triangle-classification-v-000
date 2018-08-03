@@ -18,7 +18,7 @@ class Triangle
       raise TriangleError
     elsif self.len_1 == self.len_2 && self.len_1 == self.len_3
       :equilateral
-    elsif self.len_1 == self.len_2 || self.len_2 == self.len_3
+    elsif self.len_1 == self.len_2 || self.len_2 == self.len_3 || self.len_1 == self.len_3
       :isosceles
     else
       :scalene

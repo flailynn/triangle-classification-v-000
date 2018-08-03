@@ -8,6 +8,9 @@ class Triangle
   end
 
   def kind
+    len_1_2 = self.len_1 + self.len_2
+    len_1_3 = self.len_1 + self.len_3
+    len_2_3 = self.len_2 + self.len_3
 
   end
 
